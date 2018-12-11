@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/home_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="one"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/home_sec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="is my quote “today is my day”"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/home_setup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROFILE SETUP" />
+
+        <Button
+            android:id="@+id/home_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MY FRIENDS" />
+
+        <Button
+            android:id="@+id/home_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

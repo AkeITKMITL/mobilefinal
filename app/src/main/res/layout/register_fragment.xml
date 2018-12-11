@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingTop="60dp"
+        android:paddingRight="40dp">
+
+        <EditText
+            android:id="@+id/regis_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/user"
+            android:hint="User Id" />
+
+        <EditText
+            android:id="@+id/regis_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/user_name"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/regis_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/date"
+            android:hint="Age" />
+
+        <EditText
+            android:id="@+id/regis_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/password"
+            android:hint="Password" />
+
+        <Button
+            android:id="@+id/regis_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER NEW ACCOUNT" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
